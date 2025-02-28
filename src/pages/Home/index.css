@@ -1,0 +1,49 @@
+.home-container {
+  height: 100px;
+  width: 100px;
+}
+
+.my-modal .ant-modal-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.replay-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.segment-controls {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+.segment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+.segment-btn {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.segment-btn.active {
+  background: #0070f3;
+  color: white;
+  border-color: #0070f3;
+}
+.time {
+  margin-left: 8px;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.operate-container {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  width: 100%;
+}
